@@ -1,0 +1,16 @@
+{{> navbar}}
+
+<div class="posts-container">
+
+    {{#each posts}}
+
+    <a href="/post/{{id}}">
+
+        <div class="post">
+            <h3>{{title}}</h3>
+            <span>{{created_at}}</span>
+        </div>
+    </a>
+
+    {{/each}}
+</div>
