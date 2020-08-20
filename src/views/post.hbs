@@ -9,7 +9,12 @@
     {{created_at}}
 </div>
 
-<h3>Likes: {{likes}}</h3>
+<div class="like-container">
+
+    <h3>Likes: {{likes}}</h3>
+    <button id="likePost" value="{{postId}}">Press to like</button>
+    <span id="likeError" style="color: red; font-weight: bold;"></span>
+</div>
 
 <div class="comments">
     <h3>Comments</h3>
